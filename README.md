@@ -1,2 +1,3 @@
 # yzzAlgorithm
-this a repo for yzz to learn some algorithm whith cplus
+
+This is a repository for yzz to learn algorithms in C++.
