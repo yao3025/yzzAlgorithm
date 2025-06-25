@@ -26,7 +26,7 @@ events:
       用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
       版权所有(C) Microsoft Corporation。保留所有权利。
       
-      生成启动时间为 2025/6/25 12:33:59。
+      生成启动时间为 2025/6/25 12:43:08。
       节点 1 上的项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\3.28.4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
@@ -52,7 +52,7 @@ events:
           0 个警告
           0 个错误
       
-      已用时间 00:00:02.35
+      已用时间 00:00:02.64
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -80,7 +80,7 @@ events:
       用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
       版权所有(C) Microsoft Corporation。保留所有权利。
       
-      生成启动时间为 2025/6/25 12:34:02。
+      生成启动时间为 2025/6/25 12:43:11。
       节点 1 上的项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\3.28.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
@@ -106,7 +106,7 @@ events:
           0 个警告
           0 个错误
       
-      已用时间 00:00:01.74
+      已用时间 00:00:03.13
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-e2jgdz"
-      binary: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-e2jgdz"
+      source: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-noecqc"
+      binary: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-noecqc"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -135,39 +135,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-e2jgdz'
+        Change Dir: 'D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-noecqc'
         
-        Run Build Command(s): C:/WorkDir/Software/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_3845e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): C:/WorkDir/Software/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_4f279.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
         版权所有(C) Microsoft Corporation。保留所有权利。
         
-        生成启动时间为 2025/6/25 12:34:04。
-        节点 1 上的项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2jgdz\\cmTC_3845e.vcxproj”(默认目标)。
+        生成启动时间为 2025/6/25 12:43:15。
+        节点 1 上的项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-noecqc\\cmTC_4f279.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_3845e.dir\\Debug\\”。
-          正在创建目录“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2jgdz\\Debug\\”。
-          正在创建目录“cmTC_3845e.dir\\Debug\\cmTC_3845e.tlog\\”。
+          正在创建目录“cmTC_4f279.dir\\Debug\\”。
+          正在创建目录“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-noecqc\\Debug\\”。
+          正在创建目录“cmTC_4f279.dir\\Debug\\cmTC_4f279.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_3845e.dir\\Debug\\cmTC_3845e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_4f279.dir\\Debug\\cmTC_4f279.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3845e.dir\\Debug\\\\" /Fd"cmTC_3845e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f279.dir\\Debug\\\\" /Fd"cmTC_4f279.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30158 版
           版权所有(C) Microsoft Corporation。保留所有权利。
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3845e.dir\\Debug\\\\" /Fd"cmTC_3845e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f279.dir\\Debug\\\\" /Fd"cmTC_4f279.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2jgdz\\Debug\\cmTC_3845e.exe" /INCREMENTAL /ILK:"cmTC_3845e.dir\\Debug\\cmTC_3845e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-e2jgdz/Debug/cmTC_3845e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-e2jgdz/Debug/cmTC_3845e.lib" /MACHINE:X64  /machine:x64 cmTC_3845e.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_3845e.vcxproj -> D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2jgdz\\Debug\\cmTC_3845e.exe
+          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-noecqc\\Debug\\cmTC_4f279.exe" /INCREMENTAL /ILK:"cmTC_4f279.dir\\Debug\\cmTC_4f279.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-noecqc/Debug/cmTC_4f279.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-noecqc/Debug/cmTC_4f279.lib" /MACHINE:X64  /machine:x64 cmTC_4f279.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4f279.vcxproj -> D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-noecqc\\Debug\\cmTC_4f279.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_3845e.dir\\Debug\\cmTC_3845e.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_3845e.dir\\Debug\\cmTC_3845e.tlog\\cmTC_3845e.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2jgdz\\cmTC_3845e.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_4f279.dir\\Debug\\cmTC_4f279.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_4f279.dir\\Debug\\cmTC_4f279.tlog\\cmTC_4f279.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-noecqc\\cmTC_4f279.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:01.61
+        已用时间 00:00:02.22
         
       exitCode: 0
   -
@@ -179,8 +179,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-8cbscw"
-      binary: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-8cbscw"
+      source: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-4bhg36"
+      binary: "D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-4bhg36"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -189,39 +189,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-8cbscw'
+        Change Dir: 'D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-4bhg36'
         
-        Run Build Command(s): C:/WorkDir/Software/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_84550.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): C:/WorkDir/Software/vs2019/MSBuild/Current/Bin/MSBuild.exe cmTC_1c2f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
         版权所有(C) Microsoft Corporation。保留所有权利。
         
-        生成启动时间为 2025/6/25 12:34:07。
-        节点 1 上的项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8cbscw\\cmTC_84550.vcxproj”(默认目标)。
+        生成启动时间为 2025/6/25 12:43:18。
+        节点 1 上的项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bhg36\\cmTC_1c2f6.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_84550.dir\\Debug\\”。
-          正在创建目录“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8cbscw\\Debug\\”。
-          正在创建目录“cmTC_84550.dir\\Debug\\cmTC_84550.tlog\\”。
+          正在创建目录“cmTC_1c2f6.dir\\Debug\\”。
+          正在创建目录“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bhg36\\Debug\\”。
+          正在创建目录“cmTC_1c2f6.dir\\Debug\\cmTC_1c2f6.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_84550.dir\\Debug\\cmTC_84550.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_1c2f6.dir\\Debug\\cmTC_1c2f6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
         ClCompile:
-          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_84550.dir\\Debug\\\\" /Fd"cmTC_84550.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c2f6.dir\\Debug\\\\" /Fd"cmTC_1c2f6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30158 版
           版权所有(C) Microsoft Corporation。保留所有权利。
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_84550.dir\\Debug\\\\" /Fd"cmTC_84550.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1c2f6.dir\\Debug\\\\" /Fd"cmTC_1c2f6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\WorkDir\\Software\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8cbscw\\Debug\\cmTC_84550.exe" /INCREMENTAL /ILK:"cmTC_84550.dir\\Debug\\cmTC_84550.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-8cbscw/Debug/cmTC_84550.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-8cbscw/Debug/cmTC_84550.lib" /MACHINE:X64  /machine:x64 cmTC_84550.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_84550.vcxproj -> D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8cbscw\\Debug\\cmTC_84550.exe
+          C:\\WorkDir\\Software\\vs2019\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bhg36\\Debug\\cmTC_1c2f6.exe" /INCREMENTAL /ILK:"cmTC_1c2f6.dir\\Debug\\cmTC_1c2f6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-4bhg36/Debug/cmTC_1c2f6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/github/yzzAlgorithm/01_KMP/build/CMakeFiles/CMakeScratch/TryCompile-4bhg36/Debug/cmTC_1c2f6.lib" /MACHINE:X64  /machine:x64 cmTC_1c2f6.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1c2f6.vcxproj -> D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bhg36\\Debug\\cmTC_1c2f6.exe
         FinalizeBuildStatus:
-          正在删除文件“cmTC_84550.dir\\Debug\\cmTC_84550.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_84550.dir\\Debug\\cmTC_84550.tlog\\cmTC_84550.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8cbscw\\cmTC_84550.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_1c2f6.dir\\Debug\\cmTC_1c2f6.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_1c2f6.dir\\Debug\\cmTC_1c2f6.tlog\\cmTC_1c2f6.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\github\\yzzAlgorithm\\01_KMP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4bhg36\\cmTC_1c2f6.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:01.68
+        已用时间 00:00:01.95
         
       exitCode: 0
 ...
