@@ -304,8 +304,24 @@ class MainWindow(QMainWindow):
         # 构建参数
         arch = self.params.get('arch', 'x64')
         # 选择生成器
-        if env == "GCC": generator = "MinGW Makefiles"
-        else: generator = "Visual Studio 16 2019"
+        if env == "GCC":
+            generator = "MinGW Makefiles"
+        else:
+            # 从系统环境检测安装的 Visual Studio 版本
+            vswhere = shutil.which("vswhere")
+            if not vswhere:
+                pf86 = os.environ.get("ProgramFiles(x86)") or os.environ.get("ProgramFiles")
+                vswhere = os.path.join(pf86, "Microsoft Visual Studio", "Installer", "vswhere.exe") if pf86 else None
+            year_map = {17: "2022", 16: "2019", 15: "2017", 14: "2015", 12: "2013", 9: "2008"}
+            generator = "Visual Studio 16 2019"
+            try:
+                out = subprocess.check_output([vswhere, "-latest", "-products", "*", "-requires", "Microsoft.Component.MSBuild", "-property", "installationVersion"], universal_newlines=True)
+                ver = out.strip()
+                major = int(ver.split(".")[0])
+                year = year_map.get(major, str(2000 + major))
+                generator = f"Visual Studio {major} {year}"
+            except Exception:
+                pass
         # 组装 config 参数列表
         cfg_args = [cmake_exec, "-G", generator, "-S", alg_dir, "-B", build_dir, f"-DCMAKE_BUILD_TYPE={build_type}"]
         if env != "GCC": cfg_args += ["-A", arch]

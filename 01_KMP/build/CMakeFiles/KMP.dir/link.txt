@@ -1,3 +1,0 @@
-C:\WorkDir\Software\cmake\bin\cmake.exe -E rm -f CMakeFiles\KMP.dir/objects.a
-C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\KMP.dir/objects.a @CMakeFiles\KMP.dir\objects1.rsp
-C:\msys64\ucrt64\bin\g++.EXE -m64 -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\KMP.dir/objects.a -Wl,--no-whole-archive -o Release\KMP.exe -Wl,--out-implib,libKMP.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\KMP.dir\linkLibs.rsp
